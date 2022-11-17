@@ -1,0 +1,58 @@
+#timeline {
+	border-left: 1px solid rgb(239, 243, 244);
+	border-right: 1px solid rgb(239, 243, 244);
+
+	#timeline-header {
+		font-weight: 900;
+		font-size: 20px;
+		padding: 16px;
+		cursor: pointer;
+		position: sticky;
+		top: 0;
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#compose-tweet {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		padding: 16px;
+		#compose-profile {
+			width: 48px;
+			height: 48px;
+			background-color: aqua;
+			border-radius: 100%;
+			margin-right: 16px;
+		}
+
+		#compose-area {
+			display: grid;
+			row-gap: 8px;
+			textarea {
+				display: block;
+				border: none;
+				background-color: transparent;
+				resize: none;
+				outline: none;
+				font-size: 20px;
+				height: fit-content;
+
+				border-bottom: 1px solid rgb(239, 243, 244);
+			}
+
+			#compose-button {
+				cursor: pointer;
+				background-color: rgb(29, 155, 240);
+				line-height: 36px;
+				padding: 0 16px;
+				width: fit-content;
+				color: white;
+				font-weight: 700;
+				border-radius: 18px;
+				justify-self: end;
+
+				opacity: 0.6;
+			}
+		}
+		border-bottom: 1px solid rgb(239, 243, 244);
+	}
+}

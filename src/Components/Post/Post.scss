@@ -1,0 +1,98 @@
+.post-item {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	padding: 16px;
+
+	.post-profile-image {
+		width: 48px;
+		height: 48px;
+		background-color: aqua;
+		border-radius: 100%;
+		margin-right: 16px;
+	}
+	.post-content {
+		display: grid;
+		row-gap: 8px;
+		.post-profile {
+			display: flex;
+			align-items: flex-end;
+			.post-name {
+				font-weight: 600;
+				font-size: 16px;
+			}
+			.post-username {
+				color: rgb(83, 100, 113);
+				font-weight: 400;
+				margin-left: 8px;
+				font-size: 15px;
+			}
+		}
+
+		.post-interactions {
+			display: flex;
+			margin-top: 8px;
+			color: rgb(83, 100, 113);
+			justify-content: space-between;
+			padding-right: 12px;
+			.interaction-button {
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				width: 80px;
+				.icon {
+					width: 32px;
+					line-height: 32px;
+					text-align: center;
+					border-radius: 100%;
+
+					transition: all 0.2s;
+					margin-right: 4px;
+				}
+			}
+
+			.reply {
+				&:hover {
+					.icon {
+						background-color: rgba(89, 174, 248, 0.2);
+					}
+					color: rgb(89, 174, 248);
+				}
+			}
+
+			.repost {
+				&:hover {
+					.icon {
+						background-color: rgba(62, 180, 87, 0.2);
+					}
+					color: rgb(62, 180, 87);
+				}
+			}
+
+			.quote {
+				&:hover {
+					.icon {
+						background-color: rgba(89, 113, 248, 0.2);
+					}
+					color: rgb(89, 113, 248);
+				}
+			}
+
+			.like {
+				&:hover {
+					.icon {
+						background-color: rgba(249, 133, 176, 0.2);
+					}
+					color: rgb(249, 133, 176);
+				}
+			}
+		}
+	}
+
+	border-bottom: 1px solid rgb(239, 243, 244);
+
+	transition: background-color 0.2s;
+
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.03);
+	}
+}

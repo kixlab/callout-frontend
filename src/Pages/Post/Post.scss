@@ -1,0 +1,165 @@
+#post-wrapper {
+	#post {
+		display: grid;
+		padding: 16px;
+		height: fit-content;
+		.post-profile {
+			.post-profile-image {
+				width: 48px;
+				height: 48px;
+				background-color: aqua;
+				border-radius: 100%;
+				margin-right: 16px;
+			}
+			display: flex;
+			align-items: center;
+			.post-name-wrapper {
+				height: fit-content;
+				.post-name {
+					font-weight: 600;
+					font-size: 16px;
+				}
+				.post-username {
+					color: rgb(83, 100, 113);
+					font-weight: 400;
+					margin-top: 4px;
+					font-size: 15px;
+				}
+			}
+		}
+
+		.post-content {
+			display: grid;
+
+			.post-message {
+				margin: 20px 0;
+				font-size: 20px;
+			}
+
+			.post-date {
+				color: rgba(0, 0, 0, 0.6);
+				margin-bottom: 20px;
+				font-size: 14px;
+			}
+
+			.post-responses {
+				border-top: 1px solid rgb(239, 243, 244);
+				display: flex;
+				align-items: center;
+				padding: 12px 0;
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+				}
+				.response-button {
+					margin-right: 16px;
+				}
+				i {
+					margin-left: 12px;
+				}
+			}
+
+			.post-interactions {
+				border-top: 1px solid rgb(239, 243, 244);
+				border-bottom: 1px solid rgb(239, 243, 244);
+				display: flex;
+				padding: 8px 0;
+				color: rgb(83, 100, 113);
+				justify-content: space-around;
+				padding-right: 12px;
+				.interaction-button {
+					display: flex;
+					align-items: center;
+					cursor: pointer;
+					width: 80px;
+					.icon {
+						width: 32px;
+						line-height: 32px;
+						text-align: center;
+						border-radius: 100%;
+
+						transition: all 0.2s;
+						margin-right: 4px;
+					}
+				}
+
+				.reply {
+					&:hover {
+						.icon {
+							background-color: rgba(89, 174, 248, 0.2);
+						}
+						color: rgb(89, 174, 248);
+					}
+				}
+
+				.repost {
+					&:hover {
+						.icon {
+							background-color: rgba(62, 180, 87, 0.2);
+						}
+						color: rgb(62, 180, 87);
+					}
+				}
+
+				.quote {
+					&:hover {
+						.icon {
+							background-color: rgba(89, 113, 248, 0.2);
+						}
+						color: rgb(89, 113, 248);
+					}
+				}
+
+				.like {
+					&:hover {
+						.icon {
+							background-color: rgba(249, 133, 176, 0.2);
+						}
+						color: rgb(249, 133, 176);
+					}
+				}
+			}
+		}
+	}
+
+	#reply {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		padding: 16px;
+		place-items: center;
+
+		#compose-profile {
+			width: 48px;
+			height: 48px;
+			background-color: aqua;
+			border-radius: 100%;
+			margin-right: 16px;
+		}
+		textarea {
+			display: block;
+			width: 100%;
+			border: none;
+			background-color: transparent;
+			resize: none;
+			outline: none;
+			font-size: 20px;
+			height: fit-content;
+		}
+
+		#compose-button {
+			cursor: pointer;
+			background-color: rgb(29, 155, 240);
+			line-height: 36px;
+			padding: 0 16px;
+			width: fit-content;
+			color: white;
+			font-weight: 700;
+			border-radius: 18px;
+			justify-self: end;
+
+			opacity: 0.6;
+		}
+		border-bottom: 1px solid rgb(239, 243, 244);
+	}
+	border-bottom: 1px solid rgb(239, 243, 244);
+}
