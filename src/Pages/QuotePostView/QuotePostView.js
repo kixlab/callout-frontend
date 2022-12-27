@@ -1,21 +1,40 @@
-import "./Post.scss";
+import "./QuotePostView.scss";
 import Post from "../../Components/Post/Post";
+import QuotePost from "../../Components/QuotePost/QuotePost";
 import Dashboard from "../../Components/Dashboard/Dashboard";
 
 import { useState } from "react";
 
-const PostView = (props) => {
+const QuotePostView = (props) => {
 	// let data = props.data;
 
 	const [dashboardState, setDashboardState] = useState(false);
 
 	let data = {
 		id: 1,
-		author_name: "user1",
-		author_id: "@username",
+		author_name: "Llian (is busy with finals)",
+		author_id: "@prime_value",
 		content: "lorem ipsum dolor si amㄴet...",
 		likes: 10,
 	};
+
+	let anon_data = {
+		id: 1,
+		author_name: "IF",
+		author_id: "@alt_iffff",
+		content:
+			"I honestly don't understand why people are fussing so much about savings. You just save up enough money and cut costs where you can with whatever help you've got. You need to be resourceful.",
+		likes: 10,
+	};
+
+	// let anon_data = {
+	// 	id: 1,
+	// 	author_name: "Anonymous user",
+	// 	author_id: "",
+	// 	content:
+	// 		"I honestly don't understand why people are fussing so much about savings. You just save up enough money and cut costs where you can with whatever help you've got. You need to be resourceful.",
+	// 	likes: 10,
+	// };
 
 	const returnToTop = () => {
 		window.scrollTo({
@@ -47,8 +66,14 @@ const PostView = (props) => {
 					</div>
 				</div>
 				<div className="post-content">
-					<div className="post-message">{data.content}</div>
-					<div className="post-date">2022년 11월 16일 02:19 AM</div>
+					<div className="post-message">
+						I suppose if you've lived all your life in a supportive family this is the perspective
+						that you get. I understand where they're coming from, honestly. But that doesn't mean
+						that this isn't a prilvilege.
+					</div>
+					{/* <div className="post-flag">Point Refuted</div> */}
+					<QuotePost data={anon_data}></QuotePost>
+					<div className="post-date">November 16, 2022 02:19 AM</div>
 					<div
 						className="post-responses"
 						onClick={() => {
@@ -102,4 +127,4 @@ const PostView = (props) => {
 	);
 };
 
-export default PostView;
+export default QuotePostView;

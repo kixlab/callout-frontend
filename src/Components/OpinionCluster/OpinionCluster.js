@@ -9,12 +9,12 @@ const OpinionCluster = (props) => {
 		{ name: "Overwhemlingly Supportive", color: "#0f0" },
 	];
 
-	const sentiment = sentimentTypes[3];
+	const sentiment = props.data.sentiment;
 
 	return (
 		<div className="opinion-cluster">
 			<div className="cluster-content">
-				<div className="cluster-argument">Argument</div>
+				<div className="cluster-argument">{props.data.arg}</div>
 				<div className="cluster-sentiment" style={{ backgroundColor: sentiment.color }}>
 					{sentiment.name}
 				</div>

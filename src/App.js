@@ -2,7 +2,12 @@ import logo from "./logo.svg";
 import "./App.scss";
 import Timeline from "./Pages/Timeline/Timeline";
 import Profile from "./Pages/Profile/Profile";
-import PostView from "./Pages/Post/Post";
+import PostView from "./Pages/PostView/PostView";
+import QuotePost from "./Components/QuotePost/QuotePost";
+import QuotePostView from "./Pages/QuotePostView/QuotePostView";
+
+// Routing
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 
 function App() {
 	return (
@@ -38,10 +43,15 @@ function App() {
 					</div>
 				</div>
 			</div>
-
-			{/* <Timeline></Timeline> */}
-			{/* <Profile></Profile> */}
-			<PostView></PostView>
+			<BrowserRouter>
+				<Routes>
+					{/* <Timeline></Timeline> */}
+					{/* <Profile></Profile> */}
+					{/* <PostView></PostView> */}
+					<Route path="/:id" element={<PostView />} />
+					{/* <QuotePostView></QuotePostView> */}
+				</Routes>
+			</BrowserRouter>
 		</div>
 	);
 }

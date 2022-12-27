@@ -7,7 +7,7 @@
 			.post-profile-image {
 				width: 48px;
 				height: 48px;
-				background-color: aqua;
+				background-color: blue;
 				border-radius: 100%;
 				margin-right: 16px;
 			}
@@ -57,6 +57,16 @@
 				i {
 					margin-left: 12px;
 				}
+			}
+
+			.post-flag {
+				color: white;
+				background-color: rgb(104, 211, 150);
+				width: fit-content;
+				font-size: 12px;
+				padding: 4px 8px;
+				border-radius: 4px;
+				margin-bottom: 12px;
 			}
 
 			.post-interactions {

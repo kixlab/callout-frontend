@@ -1,0 +1,50 @@
+#post-wrapper .quote-post-item {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	padding: 16px;
+	border: 1px solid rgb(208, 208, 208);
+	border-radius: 8px;
+	margin-bottom: 16px;
+
+	.post-content {
+		display: grid;
+		row-gap: 8px;
+		.post-profile {
+			display: flex;
+			align-items: flex-end;
+			.post-profile-image {
+				width: 24px !important;
+				height: 24px !important;
+				background-color: aqua !important;
+				border-radius: 100%;
+				margin-right: 16px;
+			}
+			.post-name {
+				font-weight: 600;
+				font-size: 16px;
+			}
+			.post-username {
+				color: rgb(83, 100, 113);
+				font-weight: 400;
+				margin-left: 8px;
+				font-size: 15px;
+			}
+		}
+
+		.post-message {
+			font-size: 16px !important;
+			margin: 12px 0 !important;
+		}
+
+		.post-flag {
+			color: white;
+			background-color: rgb(104, 104, 211);
+			width: fit-content;
+			font-size: 12px;
+			padding: 4px 8px;
+			border-radius: 4px;
+		}
+	}
+
+	transition: background-color 0.2s;
+}
