@@ -2,23 +2,20 @@
 	display: grid;
 	grid-template-columns: auto 1fr;
 	padding: 16px;
-	border: 1px solid rgb(208, 208, 208);
-	border-radius: 8px;
-	margin-bottom: 16px;
 
+	.post-profile-image {
+		width: 48px;
+		height: 48px;
+		background-color: aqua;
+		border-radius: 100%;
+		margin-right: 16px;
+	}
 	.post-content {
 		display: grid;
 		row-gap: 8px;
 		.post-profile {
 			display: flex;
 			align-items: flex-end;
-			.post-profile-image {
-				width: 24px !important;
-				height: 24px !important;
-				background-color: aqua !important;
-				border-radius: 100%;
-				margin-right: 16px;
-			}
 			.post-name {
 				font-weight: 600;
 				font-size: 16px;
@@ -31,20 +28,112 @@
 			}
 		}
 
-		.post-message {
-			font-size: 16px !important;
-			margin: 12px 0 !important;
-		}
+		.post-interactions {
+			display: flex;
+			margin-top: 8px;
+			color: rgb(83, 100, 113);
+			justify-content: space-between;
+			padding-right: 12px;
+			.interaction-button {
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				width: 80px;
+				.icon {
+					width: 32px;
+					line-height: 32px;
+					text-align: center;
+					border-radius: 100%;
 
-		.post-flag {
-			color: white;
-			background-color: rgb(104, 104, 211);
-			width: fit-content;
-			font-size: 12px;
-			padding: 4px 8px;
-			border-radius: 4px;
+					transition: all 0.2s;
+					margin-right: 4px;
+				}
+			}
+
+			.reply {
+				&:hover {
+					.icon {
+						background-color: rgba(89, 174, 248, 0.2);
+					}
+					color: rgb(89, 174, 248);
+				}
+			}
+
+			.repost {
+				&:hover {
+					.icon {
+						background-color: rgba(62, 180, 87, 0.2);
+					}
+					color: rgb(62, 180, 87);
+				}
+			}
+
+			.quote {
+				&:hover {
+					.icon {
+						background-color: rgba(89, 113, 248, 0.2);
+					}
+					color: rgb(89, 113, 248);
+				}
+			}
+
+			.like {
+				&:hover {
+					.icon {
+						background-color: rgba(249, 133, 176, 0.2);
+					}
+					color: rgb(249, 133, 176);
+				}
+			}
 		}
 	}
+	.quoted-post {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		padding: 16px;
+		border: 1px solid rgb(208, 208, 208);
+		border-radius: 8px;
 
-	transition: background-color 0.2s;
+		.post-content {
+			display: grid;
+			row-gap: 8px;
+			.post-profile {
+				display: flex;
+				align-items: flex-end;
+				.post-profile-image {
+					width: 24px !important;
+					height: 24px !important;
+					background-color: aqua !important;
+					border-radius: 100%;
+					margin-right: 16px;
+				}
+				.post-name {
+					font-weight: 600;
+					font-size: 16px;
+				}
+				.post-username {
+					color: rgb(83, 100, 113);
+					font-weight: 400;
+					margin-left: 8px;
+					font-size: 15px;
+				}
+			}
+
+			.post-message {
+				font-size: 16px !important;
+			}
+
+			.post-flag {
+				color: white;
+				background-color: rgb(104, 104, 211);
+				width: fit-content;
+				font-size: 12px;
+				padding: 4px 8px;
+				border-radius: 4px;
+			}
+		}
+
+		transition: background-color 0.2s;
+	}
+	border-bottom: 1px solid rgb(239, 243, 244);
 }

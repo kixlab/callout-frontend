@@ -1,5 +1,6 @@
 import "./Post.scss";
 import Post from "../../Components/Post/Post";
+import QuotePost from "../../Components/QuotePost/QuotePost";
 import Dashboard from "../../Components/Dashboard/Dashboard";
 
 import { useState } from "react";
@@ -9,17 +10,19 @@ const PostView = (props) => {
 
 	const [dashboardState, setDashboardState] = useState(false);
 
+	const [quotesView, setQuotesView] = useState(false);
+
 	const [contextFlag, setContextFlag] = useState(false);
 	const [rebuttalFlag, setRebuttalFlag] = useState(false);
 
 	const [postData, setPostData] = useState({
 		id: 1,
-		author_name: "Mycutegallery",
-		author_id: "@main_user",
+		author_name: "내 트위터 계정",
+		author_id: "my_username",
 		content: "lorem ipsum",
 		likes: 10,
-		replies: require('../../Data/case1_replies.json'),
-		quotes: [],
+		replies: require("../../Data/case1_replies.json"),
+		quotes: require("../../Data/case1_qt.json"),
 		boosts: 40,
 	});
 
@@ -78,76 +81,101 @@ const PostView = (props) => {
 
 	return (
 		<main id="post-wrapper">
-			<div
-				className="header"
-				id="timeline-header"
-				onClick={() => {
-					returnToTop();
-				}}>
-				트윗
-			</div>
-			<div id="post">
-				<div className="post-profile">
-					<div className="post-profile-image"></div>
-					<div className="post-name-wrapper">
-						<div className="post-name">{postData.author_name}</div>
-						<div className="post-username">{postData.author_id}</div>
-					</div>
-				</div>
-				<div className="post-content">
-					<div className="post-message">{postData.content}</div>
-					<div className="post-date">November 16th, 2022 02:19 AM</div>
+			{!quotesView && (
+				<div>
 					<div
-						className="post-responses"
+						className="header"
+						id="timeline-header"
 						onClick={() => {
-							openDashBoard();
+							returnToTop();
 						}}>
-						반응 모아보기
-						<i className="fa-solid fa-arrow-right"></i>
+						게시글
 					</div>
-					<div className="post-interactions">
-						<div className="reply interaction-button">
-							<div className="icon">
-								<i className="fa-regular fa-comment"></i>
+					<div id="post">
+						<div className="post-profile">
+							<div className="post-profile-image"></div>
+							<div className="post-name-wrapper">
+								<div className="post-name">{postData.author_name}</div>
+								<div className="post-username">@{postData.author_id}</div>
 							</div>
-							{postData.replies.length}
 						</div>
-						<div className="repost interaction-button">
-							<div className="icon">
-								<i className="fa-solid fa-retweet"></i>
+						<div className="post-content">
+							<div className="post-message">{postData.content}</div>
+							<div className="post-date">November 16th, 2022 02:19 AM</div>
+							<div
+								className="post-responses"
+								onClick={() => {
+									openDashBoard();
+								}}>
+								반응 모아보기
+								<i className="fa-solid fa-arrow-right"></i>
 							</div>
-							{postData.boosts}
-						</div>
-						<div className="quote interaction-button">
-							<div className="icon">
-								<i className="fa-solid fa-quote-left"></i>
+							<div className="post-interactions">
+								<div className="reply interaction-button">
+									<div className="icon">
+										<i className="fa-regular fa-comment"></i>
+									</div>
+									{postData.replies.length}
+								</div>
+								<div className="repost interaction-button">
+									<div className="icon">
+										<i className="fa-solid fa-retweet"></i>
+									</div>
+									{postData.boosts}
+								</div>
+								<div
+									className="quote interaction-button"
+									onClick={() => {
+										setQuotesView(true);
+									}}>
+									<div className="icon">
+										<i className="fa-solid fa-quote-left"></i>
+									</div>
+									{postData.quotes.length}
+								</div>
+								<div className="like interaction-button">
+									<div className="icon">
+										<i className="fa-regular fa-heart"></i>
+									</div>
+									{postData.likes}
+								</div>
 							</div>
-							{postData.quotes.length}
 						</div>
-						<div className="like interaction-button">
-							<div className="icon">
-								<i className="fa-regular fa-heart"></i>
-							</div>
-							{postData.likes}
+					</div>
+					<div id="reply">
+						<div id="compose-profile"></div>
+
+						<textarea placeholder="답글을 적어 주세요" id="reply-input"></textarea>
+						<div id="compose-button" onClick={() => addReply()}>
+							답글 달기
 						</div>
+					</div>
+					<div id="replies">
+						{postData.replies.map((item) => {
+							return <Post data={item} key={item.id}></Post>;
+						})}
+					</div>
+
+					{dashboardState && <Dashboard setState={setDashboardState} />}
+				</div>
+			)}
+			{quotesView && (
+				<div id="quotes-view">
+					<div
+						className="header"
+						id="timeline-header"
+						onClick={() => {
+							setQuotesView(false);
+						}}>
+						<i className="fa-solid fa-arrow-left"></i> 인용한 게시글
+					</div>
+					<div id="quotes">
+						{postData.quotes.map((item) => {
+							return <QuotePost data={item} key={item.id} quoted={postData} />;
+						})}
 					</div>
 				</div>
-			</div>
-			<div id="reply">
-				<div id="compose-profile"></div>
-
-				<textarea placeholder="답글을 적어 주세요" id="reply-input"></textarea>
-				<div id="compose-button" onClick={() => addReply()}>
-					답글 달기
-				</div>
-			</div>
-			<div id="replies">
-				{postData.replies.map((item) => {
-					return <Post data={item} key={item.id}></Post>;
-				})}
-			</div>
-
-			{dashboardState && <Dashboard setState={setDashboardState} />}
+			)}
 		</main>
 	);
 };

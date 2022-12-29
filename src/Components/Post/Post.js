@@ -5,7 +5,9 @@ const Post = (props) => {
 
 	return (
 		<div className="post-item">
-			<div className="post-profile-image" style={{backgroundImage: "`url(${data.profile_image_url})`"}}></div>
+			<div
+				className="post-profile-image"
+				style={{ backgroundImage: `url(${data.profile_image_url})` }}></div>
 			<div className="post-content">
 				<div className="post-profile">
 					<div className="post-name">{data.author_name}</div>
@@ -17,13 +19,13 @@ const Post = (props) => {
 						<div className="icon">
 							<i className="fa-regular fa-comment"></i>
 						</div>
-						{data.replies.length}
+						{data.reply_count}
 					</div>
 					<div className="repost interaction-button">
 						<div className="icon">
 							<i className="fa-solid fa-retweet"></i>
 						</div>
-						{data.boosts}
+						{data.retweet_count}
 					</div>
 					<div className="quote interaction-button">
 						<div className="icon">
