@@ -18,7 +18,7 @@ const PostView = (props) => {
 		author_id: "@main_user",
 		content: "lorem ipsum",
 		likes: 10,
-		replies: require('../../Data/ji.json'),
+		replies: require('../../Data/case1_replies.json'),
 		quotes: [],
 		boosts: 40,
 	});

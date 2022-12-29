@@ -9,7 +9,7 @@ const Post = (props) => {
 			<div className="post-content">
 				<div className="post-profile">
 					<div className="post-name">{data.author_name}</div>
-					<div className="post-username">{data.author_id}</div>
+					<div className="post-username">@{data.author_id}</div>
 				</div>
 				<div className="post-message" dangerouslySetInnerHTML={{ __html: data.content }}></div>
 				<div className="post-interactions">
