@@ -14,23 +14,11 @@ const PostView = (props) => {
 
 	const [postData, setPostData] = useState({
 		id: 1,
-		author_name: "User",
+		author_name: "Mycutegallery",
 		author_id: "@main_user",
 		content: "lorem ipsum",
 		likes: 10,
-		replies: [
-			{
-				id: 1,
-				author_name: "IF",
-				author_id: "@alt_iffff",
-				content:
-					"I honestly don't understand why people are fussing so much about savings. You just save up enough money and cut costs where you can with whatever help you've got. You need to be resourceful.",
-				likes: 0,
-				replies: [],
-				quotes: [],
-				boosts: 0,
-			},
-		],
+		replies: require('../../Data/ji.json'),
 		quotes: [],
 		boosts: 40,
 	});

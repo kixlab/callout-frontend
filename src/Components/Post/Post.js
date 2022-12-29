@@ -5,7 +5,7 @@ const Post = (props) => {
 
 	return (
 		<div className="post-item">
-			<div className="post-profile-image"></div>
+			<div className="post-profile-image" style={{backgroundImage: "`url(${data.profile_image_url})`"}}></div>
 			<div className="post-content">
 				<div className="post-profile">
 					<div className="post-name">{data.author_name}</div>

@@ -48,7 +48,7 @@ function App() {
 					{/* <Timeline></Timeline> */}
 					{/* <Profile></Profile> */}
 					{/* <PostView></PostView> */}
-					<Route path="/:id" element={<PostView />} />
+					<Route path="1234" element={<PostView />} />
 					{/* <QuotePostView></QuotePostView> */}
 				</Routes>
 			</BrowserRouter>
