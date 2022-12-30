@@ -5,7 +5,7 @@ import Dashboard from "../../Components/Dashboard/Dashboard";
 
 import { useState } from "react";
 
-const PostView = (props) => {
+const PrePostView = (props) => {
 	// let data = props.data;
 
 	const [dashboardState, setDashboardState] = useState(false);
@@ -21,10 +21,10 @@ const PostView = (props) => {
 		author_id: "my_username",
 		content:
 			"진짜!!!!!! 요즘 밖에서할거너무없지않냐? \n신사 압구정 성수 홍대 강남 어딜 가도 걍 돈 쓰는 것밖에 없어서 서울이 넘 재미없어..",
-		likes: 324,
-		replies: require("../../Data/case1_replies.json"),
+		likes: 24,
+		replies: [],
 		quotes: require("../../Data/case1_qt_pre.json"),
-		boosts: 851,
+		boosts: 37,
 	});
 
 	if (props.data) {
@@ -155,6 +155,7 @@ const PostView = (props) => {
 					{dashboardState && (
 						<Dashboard
 							setState={setDashboardState}
+							contidion={1}
 							data={postData.quotes}
 							setContext={setContextFlag}
 							setRebuttal={setRebuttalFlag}
@@ -196,4 +197,4 @@ const PostView = (props) => {
 	);
 };
 
-export default PostView;
+export default PrePostView;

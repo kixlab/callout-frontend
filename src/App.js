@@ -1,10 +1,8 @@
-import logo from "./logo.svg";
 import "./App.scss";
-import Timeline from "./Pages/Timeline/Timeline";
-import Profile from "./Pages/Profile/Profile";
-import PostView from "./Pages/PostView/PostView";
-import QuotePost from "./Components/QuotePost/QuotePost";
-import QuotePostView from "./Pages/QuotePostView/QuotePostView";
+
+import RePostView from "./Pages/PostView/PostView_reactive";
+import PrePostView from "./Pages/PostView/PostView_preemptive";
+import PostView_EX from "./Pages/PostView/PostView_Ex";
 
 // Routing
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
@@ -48,7 +46,9 @@ function App() {
 					{/* <Timeline></Timeline> */}
 					{/* <Profile></Profile> */}
 					{/* <PostView></PostView> */}
-					<Route path="/:id" element={<PostView />} />
+					<Route path="/cond_1" element={<RePostView />} />
+					<Route path="/cond_2" element={<PrePostView />} />
+					<Route path="/sample" element={<PostView_EX />} />
 					{/* <QuotePostView></QuotePostView> */}
 				</Routes>
 			</BrowserRouter>

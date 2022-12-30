@@ -283,7 +283,8 @@
 		}
 
 		#replies-wrapper {
-			display: grid;
+			display: flex;
+			flex-direction: column;
 			row-gap: 12px;
 			overflow-y: scroll;
 			height: 450px;

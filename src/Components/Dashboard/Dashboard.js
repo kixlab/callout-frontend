@@ -345,109 +345,134 @@ const Dashboard = (props) => {
 								</div>
 							)}
 						</div>
-						<div id="cluster-list">
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 8,
-									arg: "서울 사람 입장에서는 동의되는 의견",
-									sentiment: sentimentTypes[6],
-								}}
-							/>
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 7,
-									arg: "서울 상가의 획일화 및 노잼화",
-									sentiment: sentimentTypes[5],
-								}}
-							/>
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 6,
-									arg: "돈이 없으면 서울의 인프라를 활용할 수 없음",
-									sentiment: sentimentTypes[5],
-								}}
-							/>
+						{props.condition !== 0 && (
+							<div id="cluster-list">
+								{props.condition === 2 && (
+									<OpinionCluster
+										setCurrentCluster={setCurrentCluster}
+										setResponses={setResponses}
+										data={data}
+										setClusterView={setClusterView}
+										postData={{
+											id: 8,
+											arg: "서울 사람 입장에서는 동의되는 의견",
+											sentiment: sentimentTypes[6],
+										}}
+									/>
+								)}
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 7,
+										arg: "서울 상가의 획일화 및 노잼화",
+										sentiment: sentimentTypes[5],
+									}}
+								/>
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 6,
+										arg: "돈이 없으면 서울의 인프라를 활용할 수 없음",
+										sentiment: sentimentTypes[5],
+									}}
+								/>
 
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 4,
-									arg: "서울에서 즐길 수 있는 컨텐츠에 대한 추천",
-									sentiment: sentimentTypes[3],
-								}}
-							/>
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 4,
+										arg: "서울 및 교외 지역 추천",
+										sentiment: sentimentTypes[3],
+									}}
+								/>
 
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 5,
-									arg: "서울이 아니라 그 어느 곳이어도 비슷",
-									sentiment: sentimentTypes[2],
-								}}
-							/>
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 2,
-									arg: "서울은 컨텐츠가 많고 놀기 좋은 곳",
-									sentiment: sentimentTypes[2],
-								}}
-							/>
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 3,
-									arg: "지방 유흥 인프라와 서울의 비교",
-									sentiment: sentimentTypes[1],
-								}}
-							/>
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 1,
-									arg: "서울에 컨텐츠가 없다는 주장은 배부른 고민",
-									sentiment: sentimentTypes[0],
-								}}
-							/>
-							<OpinionCluster
-								setCurrentCluster={setCurrentCluster}
-								setResponses={setResponses}
-								data={data}
-								setClusterView={setClusterView}
-								postData={{
-									id: 9,
-									arg: "기타 의견",
-									sentiment: sentimentTypes[3],
-								}}
-							/>
-						</div>
+								{props.condition === 2 && (
+									<OpinionCluster
+										setCurrentCluster={setCurrentCluster}
+										setResponses={setResponses}
+										data={data}
+										setClusterView={setClusterView}
+										postData={{
+											id: 5,
+											arg: "서울이 아니라 그 어느 곳이어도 비슷",
+											sentiment: sentimentTypes[2],
+										}}
+									/>
+								)}
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 2,
+										arg: "서울에도 충분히 할 것이 많다",
+										sentiment: sentimentTypes[2],
+									}}
+								/>
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 3,
+										arg: "지방 유흥 인프라와 서울의 비교",
+										sentiment: sentimentTypes[1],
+									}}
+								/>
+								{props.condition === 2 && (
+									<OpinionCluster
+										setCurrentCluster={setCurrentCluster}
+										setResponses={setResponses}
+										data={data}
+										setClusterView={setClusterView}
+										postData={{
+											id: 1,
+											arg: "서울에 컨텐츠가 없다는 주장은 배부른 고민",
+											sentiment: sentimentTypes[0],
+										}}
+									/>
+								)}
+								{props.condition === 2 && (
+									<OpinionCluster
+										setCurrentCluster={setCurrentCluster}
+										setResponses={setResponses}
+										data={data}
+										setClusterView={setClusterView}
+										postData={{
+											id: 9,
+											arg: "기타 의견",
+											sentiment: sentimentTypes[3],
+										}}
+									/>
+								)}
+							</div>
+						)}
+						{props.condition === 0 && (
+							<div id="cluster-list">
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 1,
+										arg: "기타 의견",
+										sentiment: sentimentTypes[3],
+									}}
+								/>
+							</div>
+						)}
 					</div>
 				)}
 			</div>
