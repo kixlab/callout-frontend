@@ -155,7 +155,7 @@ const RePostView = (props) => {
 					{dashboardState && (
 						<Dashboard
 							setState={setDashboardState}
-							contidion={2}
+							condition={2}
 							data={postData.quotes}
 							setContext={setContextFlag}
 							setRebuttal={setRebuttalFlag}
