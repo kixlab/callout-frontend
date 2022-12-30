@@ -284,7 +284,7 @@ const Dashboard = (props) => {
 									</div>
 
 									<div id="prof-setting" className="setting-wrapper">
-										<div className="title">Profile Visibility</div>
+										<div className="title">프로필 공개 범위</div>
 										<div className="setting-item" onClick={() => setProfile(0)}>
 											모든 사용자
 											{profile == 0 && <i className="fa-solid fa-check"></i>}
@@ -310,7 +310,7 @@ const Dashboard = (props) => {
 										</div>
 									</div>
 									<div id="inter-setting" className="setting-wrapper">
-										<div className="title">Interaction</div>
+										<div className="title">상호작용 가능 범위</div>
 										<div className="setting-item" onClick={() => setInteraction(0)}>
 											모든 사용자 {interaction == 0 && <i className="fa-solid fa-check"></i>}
 										</div>
@@ -467,8 +467,19 @@ const Dashboard = (props) => {
 									setClusterView={setClusterView}
 									postData={{
 										id: 1,
-										arg: "기타 의견",
+										arg: "의견 1",
 										sentiment: sentimentTypes[3],
+									}}
+								/>
+								<OpinionCluster
+									setCurrentCluster={setCurrentCluster}
+									setResponses={setResponses}
+									data={data}
+									setClusterView={setClusterView}
+									postData={{
+										id: 2,
+										arg: "의견 2",
+										sentiment: sentimentTypes[4],
 									}}
 								/>
 							</div>
