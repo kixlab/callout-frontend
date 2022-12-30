@@ -1,6 +1,6 @@
 import "./QuotePostView.scss";
 import Post from "../../Components/Post/Post";
-import QuotePost from "../../Components/QuotePost/QuotePost";
+// import QuotePost from "../../Components/QuotePost/QuotePost";
 import Dashboard from "../../Components/Dashboard/Dashboard";
 
 import { useState } from "react";
@@ -61,27 +61,33 @@ const QuotePostView = (props) => {
 				<div className="post-profile">
 					<div className="post-profile-image"></div>
 					<div className="post-name-wrapper">
-						<div className="post-name">{data.author_name}</div>
-						<div className="post-username">{data.author_id}</div>
+						<div className="post-name">예시 팔로워</div>
+						<div className="post-username">@sample_user</div>
 					</div>
 				</div>
 				<div className="post-content">
-					<div className="post-message">
-						I suppose if you've lived all your life in a supportive family this is the perspective
-						that you get. I understand where they're coming from, honestly. But that doesn't mean
-						that this isn't a prilvilege.
-					</div>
+					<div className="post-message">예시 인용한 트윗</div>
 					{/* <div className="post-flag">Point Refuted</div> */}
-					<QuotePost data={anon_data}></QuotePost>
-					<div className="post-date">November 16, 2022 02:19 AM</div>
-					<div
+					<div className="quoted-post">
+						<div className="post-profile-image" style={{ backgroundColor: "gray" }}></div>
+						<div className="post-content">
+							<div className="post-profile">
+								<div className="post-name">익명의 사용자</div>
+							</div>
+							<div className="post-message">예시 인용된 트윗</div>
+							{props.context && <div className="context-flag">맥락 추가됨</div>}
+						</div>
+					</div>
+
+					<div className="post-date">2022년 12월 30일 02:19 AM</div>
+					{/* <div
 						className="post-responses"
 						onClick={() => {
 							openDashBoard();
 						}}>
 						반응 모아보기
 						<i className="fa-solid fa-arrow-right"></i>
-					</div>
+					</div> */}
 					<div className="post-interactions">
 						<div className="reply interaction-button">
 							<div className="icon">
@@ -118,9 +124,9 @@ const QuotePostView = (props) => {
 					답글 달기
 				</div>
 			</div>
-			<div id="replies">
+			{/* <div id="replies">
 				<Post data={data}></Post>
-			</div>
+			</div> */}
 
 			{dashboardState && <Dashboard setState={setDashboardState} />}
 		</main>

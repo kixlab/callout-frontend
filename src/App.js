@@ -3,6 +3,7 @@ import "./App.scss";
 import RePostView from "./Pages/PostView/PostView_reactive";
 import PrePostView from "./Pages/PostView/PostView_preemptive";
 import PostView_EX from "./Pages/PostView/PostView_Ex";
+import QuotePostView from "./Pages/QuotePostView/QuotePostView";
 
 // Routing
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
@@ -49,6 +50,7 @@ function App() {
 					<Route path="/cond_1" element={<RePostView />} />
 					<Route path="/cond_2" element={<PrePostView />} />
 					<Route path="/sample" element={<PostView_EX />} />
+					<Route path="/visibility" element={<QuotePostView />} />
 					{/* <QuotePostView></QuotePostView> */}
 				</Routes>
 			</BrowserRouter>
