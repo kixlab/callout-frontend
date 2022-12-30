@@ -12,22 +12,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1608336931146051585,
-        "author_name": "이이진",
-        "author_id": "prettykingpin",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1583763961211916288/ds0Yo3z__normal.jpg",
-        "content": "니들은 맨날 이런거보면서",
-        "retweet_count": 0,
-        "reply_count": 0,
-        "likes": 1,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1608279570410770433,
@@ -42,7 +27,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1608113933872922625,
@@ -57,7 +42,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": -1
+        "cluster_id": [4]
     },
     {
         "id": 1608096881300869120,
@@ -72,7 +57,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1608060960497074178,
@@ -87,7 +72,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1608038362363101186,
@@ -102,7 +87,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1608031825536090113,
@@ -117,7 +102,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1608030099751960582,
@@ -132,7 +117,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1608022238661607426,
@@ -147,7 +132,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1608013108064448512,
@@ -162,7 +147,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1608008785246945281,
@@ -177,7 +162,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1608007845093724160,
@@ -192,7 +177,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1608003643403563010,
@@ -207,7 +192,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1608001287739838464,
@@ -222,7 +207,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [7]
     },
     {
         "id": 1607989180361248773,
@@ -237,7 +222,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607987748316803072,
@@ -252,7 +237,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607987450236002304,
@@ -267,22 +252,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1607987400009216001,
-        "author_name": "블루씨",
-        "author_id": "Freeblue7",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1604015391390724097/n-6xACO6_normal.jpg",
-        "content": "https://t.co/WqnRaZPOvb",
-        "retweet_count": 0,
-        "reply_count": 1,
-        "likes": 1,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607982130956759040,
@@ -297,7 +267,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607981683411922945,
@@ -312,7 +282,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607980623783940097,
@@ -327,7 +297,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4, 7]
     },
     {
         "id": 1607939424649908224,
@@ -342,7 +312,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [7]
     },
     {
         "id": 1607920026421694464,
@@ -357,7 +327,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607837656691638272,
@@ -372,7 +342,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [8]
     },
     {
         "id": 1607804267892703232,
@@ -387,7 +357,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607790264931975169,
@@ -402,7 +372,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607786453962194944,
@@ -417,7 +387,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607782031811055618,
@@ -432,7 +402,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607780745384452096,
@@ -447,7 +417,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607772850911608832,
@@ -462,7 +432,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607772474787401728,
@@ -477,7 +447,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607764943042154498,
@@ -492,7 +462,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [8]
     },
     {
         "id": 1607764317499437070,
@@ -507,7 +477,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607758452855820289,
@@ -522,22 +492,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1607756105610063872,
-        "author_name": "튀김우동슢",
-        "author_id": "ssuchfun",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1484542285102878723/ElqJ5v9j_normal.jpg",
-        "content": "https://t.co/fVhx7oIEp9",
-        "retweet_count": 0,
-        "reply_count": 0,
-        "likes": 8,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607755739766091776,
@@ -552,7 +507,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3, 4]
     },
     {
         "id": 1607755134154702848,
@@ -567,7 +522,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607753384391761920,
@@ -582,7 +537,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     },
     {
         "id": 1607750930606469121,
@@ -597,7 +552,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607739908034301953,
@@ -612,7 +567,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607736063799463939,
@@ -627,7 +582,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607735486516432896,
@@ -642,7 +597,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [8]
     },
     {
         "id": 1607734000692662272,
@@ -657,7 +612,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [9]
     },
     {
         "id": 1607732256516509698,
@@ -672,7 +627,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607731979302350854,
@@ -687,7 +642,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607729649911726083,
@@ -702,7 +657,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607726080718409729,
@@ -717,7 +672,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607724099027230723,
@@ -732,7 +687,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607719319219343360,
@@ -747,7 +702,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607712528750227459,
@@ -762,7 +717,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607710963855392772,
@@ -777,7 +732,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607709184241577984,
@@ -792,22 +747,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1607705693594996737,
-        "author_name": "SUN",
-        "author_id": "annoing_Sun",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1593567079411875840/6BNaerTg_normal.jpg",
-        "content": "우린 산과 들과 논에서 멧돼지와 즐겁게 뛰어다녀요 서울사람은 참 안됏군아",
-        "retweet_count": 0,
-        "reply_count": 0,
-        "likes": 1,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [8]
     },
     {
         "id": 1607705420189274113,
@@ -822,7 +762,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607702794798268417,
@@ -837,7 +777,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607700861668708352,
@@ -852,7 +792,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607699005877923841,
@@ -867,7 +807,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [3]
     },
     {
         "id": 1607698785274298368,
@@ -882,7 +822,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607694881664954368,
@@ -897,7 +837,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607692221180153862,
@@ -912,7 +852,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607689830070386690,
@@ -927,7 +867,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607682707013898240,
@@ -942,7 +882,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607676355612938241,
@@ -957,7 +897,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607672172105060352,
@@ -972,7 +912,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [1]
     },
     {
         "id": 1607667568118206465,
@@ -987,7 +927,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607667415994990593,
@@ -1002,7 +942,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [8]
     },
     {
         "id": 1607667414409547777,
@@ -1017,7 +957,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607653134163382277,
@@ -1032,7 +972,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607642108088975361,
@@ -1047,7 +987,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607641461440544768,
@@ -1062,7 +1002,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607639437621727233,
@@ -1077,7 +1017,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1, 2]
     },
     {
         "id": 1607638785260670976,
@@ -1092,7 +1032,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607626298331123715,
@@ -1107,7 +1047,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [3]
     },
     {
         "id": 1607622723693613056,
@@ -1122,7 +1062,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607620054040088582,
@@ -1137,7 +1077,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607612953674776576,
@@ -1152,7 +1092,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607611793639374849,
@@ -1167,7 +1107,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607608480210489344,
@@ -1182,7 +1122,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607608033961738242,
@@ -1197,7 +1137,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6]
     },
     {
         "id": 1607605414685966340,
@@ -1212,7 +1152,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607604054288658437,
@@ -1227,7 +1167,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607597258534694914,
@@ -1242,7 +1182,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [8]
     },
     {
         "id": 1607596727686815746,
@@ -1257,7 +1197,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [3]
     },
     {
         "id": 1607596320684126208,
@@ -1272,7 +1212,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607591050755059712,
@@ -1287,7 +1227,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607587560137830401,
@@ -1302,7 +1242,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [8]
     },
     {
         "id": 1607587331959320577,
@@ -1317,7 +1257,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607586592885190657,
@@ -1332,7 +1272,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607584435498811392,
@@ -1347,7 +1287,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     },
     {
         "id": 1607584325066973189,
@@ -1362,7 +1302,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607583402395578368,
@@ -1377,7 +1317,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607582649589321729,
@@ -1392,7 +1332,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607575617847046144,
@@ -1407,7 +1347,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607575070138077184,
@@ -1422,7 +1362,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     },
     {
         "id": 1607567727216189440,
@@ -1437,7 +1377,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607566229300219904,
@@ -1452,7 +1392,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607564748320800769,
@@ -1467,7 +1407,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607564507441950720,
@@ -1482,7 +1422,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607560023676432386,
@@ -1497,7 +1437,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [3]
     },
     {
         "id": 1607554838778503169,
@@ -1512,7 +1452,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [9]
     },
     {
         "id": 1607553973627813895,
@@ -1527,7 +1467,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607549904184045569,
@@ -1542,7 +1482,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607548649038581760,
@@ -1557,7 +1497,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607547919292592129,
@@ -1572,7 +1512,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607546359330263043,
@@ -1587,7 +1527,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607538576245551104,
@@ -1602,7 +1542,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [3]
     },
     {
         "id": 1607534825778581505,
@@ -1617,7 +1557,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607534352157794307,
@@ -1632,7 +1572,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607525828224778240,
@@ -1647,7 +1587,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [3, 6]
     },
     {
         "id": 1607523228091842562,
@@ -1662,7 +1602,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607514699851272194,
@@ -1677,7 +1617,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607513948047413249,
@@ -1692,7 +1632,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607504128506474496,
@@ -1707,7 +1647,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607494329643438080,
@@ -1722,7 +1662,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [9]
     },
     {
         "id": 1607494131974295552,
@@ -1737,7 +1677,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607469969406844928,
@@ -1752,7 +1692,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [9]
     },
     {
         "id": 1607444446333005824,
@@ -1767,7 +1707,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [8]
     },
     {
         "id": 1607438194961977344,
@@ -1782,7 +1722,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607438124157915140,
@@ -1797,7 +1737,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607437628428939265,
@@ -1812,7 +1752,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607436935571853312,
@@ -1827,7 +1767,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": -1
+        "cluster_id": [7]
     },
     {
         "id": 1607430195446972416,
@@ -1842,7 +1782,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607424941133303809,
@@ -1857,7 +1797,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607421149197266947,
@@ -1872,7 +1812,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607419235172765696,
@@ -1887,7 +1827,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607408228689932289,
@@ -1902,7 +1842,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607406299733708806,
@@ -1917,7 +1857,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607404254146486272,
@@ -1932,7 +1872,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607404067420278786,
@@ -1947,7 +1887,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607403919273230342,
@@ -1962,7 +1902,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607400254286204928,
@@ -1977,7 +1917,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607398153694875649,
@@ -1992,7 +1932,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607394423545139202,
@@ -2007,7 +1947,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607394373620367360,
@@ -2022,7 +1962,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607393254433230850,
@@ -2037,7 +1977,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607392047610368011,
@@ -2052,7 +1992,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607390153978572801,
@@ -2067,7 +2007,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607389787769704448,
@@ -2082,7 +2022,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607389010368024576,
@@ -2097,7 +2037,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607386600857829376,
@@ -2112,7 +2052,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607384856539062273,
@@ -2127,7 +2067,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607384724040974338,
@@ -2142,7 +2082,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607383349865353216,
@@ -2157,7 +2097,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607382523709100032,
@@ -2172,7 +2112,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607382119164284934,
@@ -2187,7 +2127,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607380713204256768,
@@ -2202,7 +2142,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607380585231822849,
@@ -2217,7 +2157,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607379598295330816,
@@ -2232,7 +2172,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607378191517364224,
@@ -2247,7 +2187,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607378179584581632,
@@ -2262,7 +2202,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [9]
     },
     {
         "id": 1607377384164184065,
@@ -2277,7 +2217,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607377286592102401,
@@ -2292,7 +2232,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607376115391397898,
@@ -2307,7 +2247,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607375768933523456,
@@ -2322,7 +2262,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607375495712346112,
@@ -2337,7 +2277,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607371840313516032,
@@ -2352,7 +2292,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607371172915838977,
@@ -2367,7 +2307,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607370913904996359,
@@ -2382,7 +2322,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607370432331788289,
@@ -2397,7 +2337,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607370146016026627,
@@ -2412,7 +2352,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607367427310125056,
@@ -2427,7 +2367,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607366537115226113,
@@ -2442,7 +2382,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607363853318524929,
@@ -2457,7 +2397,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607363535998431239,
@@ -2472,7 +2412,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607363377122381827,
@@ -2487,7 +2427,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607363243995193345,
@@ -2502,7 +2442,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607361209011163137,
@@ -2517,7 +2457,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607360411082567681,
@@ -2532,7 +2472,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607360017497489408,
@@ -2547,7 +2487,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2, 6]
     },
     {
         "id": 1607359978393989120,
@@ -2562,7 +2502,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607356589685735425,
@@ -2577,22 +2517,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1607355658999070720,
-        "author_name": "크리스탈",
-        "author_id": "undyne_loveyou",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1608036068439519232/vZjPPfzS_normal.jpg",
-        "content": "https://t.co/D0tqT6KBUr",
-        "retweet_count": 0,
-        "reply_count": 1,
-        "likes": 1,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607355590942289920,
@@ -2607,7 +2532,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607353325145686018,
@@ -2622,7 +2547,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607352821346897921,
@@ -2637,7 +2562,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607352646649905152,
@@ -2652,7 +2577,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607351935551823872,
@@ -2667,7 +2592,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607351018421116929,
@@ -2682,7 +2607,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607350610411794432,
@@ -2697,7 +2622,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607350366647226371,
@@ -2712,7 +2637,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607348054298071040,
@@ -2727,7 +2652,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607348022140342274,
@@ -2742,7 +2667,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [7]
     },
     {
         "id": 1607347468211212290,
@@ -2757,7 +2682,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607346778701201410,
@@ -2772,7 +2697,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607346339679203330,
@@ -2787,7 +2712,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607346242576846851,
@@ -2802,7 +2727,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607345907540058112,
@@ -2817,7 +2742,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607345309742661637,
@@ -2832,7 +2757,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607344679858892800,
@@ -2847,7 +2772,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1, 2]
     },
     {
         "id": 1607344507498172416,
@@ -2862,7 +2787,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [2]
     },
     {
         "id": 1607343178478411781,
@@ -2877,7 +2802,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     },
     {
         "id": 1607342390020538373,
@@ -2892,7 +2817,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607339467236585472,
@@ -2907,7 +2832,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607338430253649922,
@@ -2922,7 +2847,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607338188875665411,
@@ -2937,7 +2862,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607335983636447232,
@@ -2952,7 +2877,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607334293730385920,
@@ -2967,7 +2892,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607334128785182720,
@@ -2982,7 +2907,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607332908259504129,
@@ -2997,7 +2922,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607331692922146816,
@@ -3012,7 +2937,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607330978883842048,
@@ -3027,7 +2952,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607329756135161856,
@@ -3042,7 +2967,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607329600820117506,
@@ -3057,7 +2982,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607329439603650562,
@@ -3072,7 +2997,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607328555586965507,
@@ -3087,7 +3012,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [1, 2]
     },
     {
         "id": 1607328514323406851,
@@ -3102,7 +3027,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607328210630627330,
@@ -3117,7 +3042,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607327667359223808,
@@ -3132,7 +3057,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607326681118965762,
@@ -3147,7 +3072,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607326663628689409,
@@ -3162,7 +3087,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607326182386839553,
@@ -3177,7 +3102,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607326100237221891,
@@ -3192,7 +3117,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607325240732024833,
@@ -3207,7 +3132,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607324423992016897,
@@ -3222,7 +3147,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607323750411948034,
@@ -3237,7 +3162,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607323569851338752,
@@ -3252,7 +3177,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [2, 3]
     },
     {
         "id": 1607323406730686464,
@@ -3267,7 +3192,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607320880824324098,
@@ -3282,7 +3207,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607319340503937024,
@@ -3297,7 +3222,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6]
     },
     {
         "id": 1607319171511246848,
@@ -3312,7 +3237,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607318464246743041,
@@ -3327,7 +3252,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607317749331791873,
@@ -3342,7 +3267,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607317282686128128,
@@ -3357,7 +3282,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607316877549907969,
@@ -3372,7 +3297,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607316775607369729,
@@ -3387,7 +3312,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607315233927999488,
@@ -3402,7 +3327,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607313581003137024,
@@ -3417,7 +3342,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607310584118390789,
@@ -3432,7 +3357,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607309442663739392,
@@ -3447,7 +3372,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607309109682143233,
@@ -3462,7 +3387,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607308472898695169,
@@ -3477,7 +3402,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607307998409691137,
@@ -3492,7 +3417,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607307446112129025,
@@ -3507,7 +3432,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607306892707270657,
@@ -3522,7 +3447,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607306090538205184,
@@ -3537,7 +3462,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607305668469624833,
@@ -3552,7 +3477,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607305179476656129,
@@ -3567,7 +3492,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607304661568192512,
@@ -3582,7 +3507,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607302455108435968,
@@ -3597,7 +3522,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607301803577847810,
@@ -3612,7 +3537,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607301190743887872,
@@ -3627,7 +3552,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607300946018828288,
@@ -3642,7 +3567,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607299443308789765,
@@ -3657,7 +3582,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607299118795476994,
@@ -3672,7 +3597,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607298771217678336,
@@ -3687,7 +3612,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607298697402150913,
@@ -3702,7 +3627,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     },
     {
         "id": 1607298116369416192,
@@ -3717,7 +3642,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [1]
     },
     {
         "id": 1607297101612077057,
@@ -3732,7 +3657,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607295974959091713,
@@ -3747,7 +3672,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607295972589318146,
@@ -3762,7 +3687,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607295225625731073,
@@ -3777,7 +3702,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607294925582000128,
@@ -3792,7 +3717,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607293876997619713,
@@ -3807,7 +3732,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607292642093838336,
@@ -3822,7 +3747,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607292218821455872,
@@ -3837,7 +3762,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607290217693843462,
@@ -3852,7 +3777,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607289839464099845,
@@ -3867,7 +3792,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607289476388380675,
@@ -3882,7 +3807,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607289310553976832,
@@ -3897,7 +3822,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607289036804337664,
@@ -3912,7 +3837,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607288629856174080,
@@ -3927,7 +3852,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607288612118466562,
@@ -3942,7 +3867,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607287175288328194,
@@ -3957,7 +3882,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607286068298276864,
@@ -3972,7 +3897,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607285359263776770,
@@ -3987,7 +3912,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607284088121208832,
@@ -4002,7 +3927,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2, 3]
     },
     {
         "id": 1607282619200475136,
@@ -4017,7 +3942,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607280313570582529,
@@ -4032,7 +3957,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607279850733309952,
@@ -4047,7 +3972,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607279447077703680,
@@ -4062,7 +3987,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607278853738868737,
@@ -4077,7 +4002,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607278404398911488,
@@ -4092,7 +4017,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [8]
     },
     {
         "id": 1607278162517569536,
@@ -4107,7 +4032,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607276585597665281,
@@ -4122,7 +4047,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [8]
     },
     {
         "id": 1607276455926575105,
@@ -4137,7 +4062,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607274832479293440,
@@ -4152,7 +4077,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607273183924875264,
@@ -4167,7 +4092,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6]
     },
     {
         "id": 1607272056336576517,
@@ -4182,7 +4107,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3, 6]
     },
     {
         "id": 1607271622855233536,
@@ -4197,7 +4122,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [6]
     },
     {
         "id": 1607270085030469634,
@@ -4212,7 +4137,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607269171418759169,
@@ -4227,7 +4152,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607267803580760065,
@@ -4242,7 +4167,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2, 3]
     },
     {
         "id": 1607267699939500032,
@@ -4257,7 +4182,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [8]
     },
     {
         "id": 1607266639975964673,
@@ -4272,7 +4197,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607266518911578118,
@@ -4287,7 +4212,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607266287042039808,
@@ -4302,7 +4227,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607266117558620160,
@@ -4317,7 +4242,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607265848074604545,
@@ -4332,7 +4257,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607265010367205377,
@@ -4347,7 +4272,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607264985952178178,
@@ -4362,7 +4287,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607264590206996483,
@@ -4377,7 +4302,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607264517716856832,
@@ -4392,7 +4317,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607264316780335105,
@@ -4407,7 +4332,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607264313890439169,
@@ -4422,7 +4347,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607263685348818946,
@@ -4437,7 +4362,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607263279029825536,
@@ -4452,7 +4377,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607263229105037312,
@@ -4467,7 +4392,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607263021432467457,
@@ -4482,7 +4407,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607262327287742464,
@@ -4497,7 +4422,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607261516067385344,
@@ -4512,7 +4437,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607259899691675649,
@@ -4527,7 +4452,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6]
     },
     {
         "id": 1607259852610621442,
@@ -4542,22 +4467,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1607258878005346304,
-        "author_name": "ฅ^ ̳• ‧̫ • ̳^ฅ",
-        "author_id": "tal_te_ham",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1533875933773328384/ngSlT6_A_normal.jpg",
-        "content": "@nammisaelife",
-        "retweet_count": 0,
-        "reply_count": 1,
-        "likes": 0,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607257888472596480,
@@ -4572,7 +4482,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607257184437678081,
@@ -4587,7 +4497,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6]
     },
     {
         "id": 1607256608513601537,
@@ -4602,7 +4512,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607255420099522560,
@@ -4617,7 +4527,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607255055090192384,
@@ -4632,7 +4542,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [3]
     },
     {
         "id": 1607254856020156416,
@@ -4647,7 +4557,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607253566791757825,
@@ -4662,7 +4572,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607251888923381761,
@@ -4677,22 +4587,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
-    },
-    {
-        "id": 1607251577995231232,
-        "author_name": "💖💖milk cat💖💖",
-        "author_id": "misonyuinme",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1608167740300484608/sx-l-2PM_normal.jpg",
-        "content": "뉴욕이 (이하 생략)",
-        "retweet_count": 0,
-        "reply_count": 1,
-        "likes": 0,
-        "quote_count": 0,
-        "replies": [],
-        "quotes": [],
-        "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3, 7]
     },
     {
         "id": 1607250942591930368,
@@ -4707,7 +4602,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607248589511856129,
@@ -4722,7 +4617,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607242759974563841,
@@ -4737,7 +4632,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [7]
     },
     {
         "id": 1607242462237687808,
@@ -4752,7 +4647,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607242057344745473,
@@ -4767,7 +4662,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [8]
     },
     {
         "id": 1607242048985522179,
@@ -4782,7 +4677,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607239936402665473,
@@ -4797,7 +4692,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607239606306734080,
@@ -4812,7 +4707,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607238454592823296,
@@ -4827,7 +4722,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607236241095032832,
@@ -4842,7 +4737,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607234594889424897,
@@ -4857,7 +4752,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607232423422750721,
@@ -4872,7 +4767,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607231226670370816,
@@ -4887,7 +4782,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607231000828055552,
@@ -4902,7 +4797,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607230919794110464,
@@ -4917,7 +4812,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607230803494440960,
@@ -4932,7 +4827,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607230174361452544,
@@ -4947,7 +4842,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607230010989121536,
@@ -4962,7 +4857,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6, 7]
     },
     {
         "id": 1607229498285756418,
@@ -4977,7 +4872,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607228686222397442,
@@ -4992,7 +4887,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607228488540647427,
@@ -5007,7 +4902,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607227345940934657,
@@ -5022,7 +4917,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607227299669364736,
@@ -5037,7 +4932,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5, 7]
     },
     {
         "id": 1607227122715852800,
@@ -5052,7 +4947,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [5]
     },
     {
         "id": 1607224629181181952,
@@ -5067,7 +4962,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607224523883163648,
@@ -5082,7 +4977,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607222846069301250,
@@ -5097,7 +4992,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [7]
     },
     {
         "id": 1607218965289533442,
@@ -5112,7 +5007,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607218509767143424,
@@ -5127,7 +5022,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607217281494552583,
@@ -5142,7 +5037,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [3]
     },
     {
         "id": 1607215458662633474,
@@ -5157,7 +5052,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607213305843843075,
@@ -5172,7 +5067,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     },
     {
         "id": 1607212230252318721,
@@ -5187,7 +5082,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607211144640598020,
@@ -5202,7 +5097,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [7]
     },
     {
         "id": 1607210851777540099,
@@ -5217,7 +5112,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607204349767471104,
@@ -5232,7 +5127,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607203421727391745,
@@ -5247,7 +5142,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607201664452407297,
@@ -5262,7 +5157,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607201351804817408,
@@ -5277,7 +5172,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607198550831820800,
@@ -5292,7 +5187,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607189860745641987,
@@ -5307,7 +5202,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [1]
     },
     {
         "id": 1607189396964667393,
@@ -5322,7 +5217,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607180455832588290,
@@ -5337,7 +5232,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607178425688817665,
@@ -5352,7 +5247,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607175127082598402,
@@ -5367,7 +5262,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607173028844306432,
@@ -5382,7 +5277,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607172637377298434,
@@ -5397,7 +5292,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607158581299916800,
@@ -5412,7 +5307,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [2]
     },
     {
         "id": 1607151899144486912,
@@ -5427,7 +5322,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [4]
     },
     {
         "id": 1607147617095680002,
@@ -5442,7 +5337,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [8]
     },
     {
         "id": 1607051487766773761,
@@ -5457,7 +5352,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 1
+        "cluster_id": [6]
     },
     {
         "id": 1607049310885269505,
@@ -5472,7 +5367,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607042363486277640,
@@ -5487,7 +5382,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607042185668747265,
@@ -5502,7 +5397,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607041973055295488,
@@ -5517,7 +5412,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607041663331086339,
@@ -5532,7 +5427,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607040355383508996,
@@ -5547,7 +5442,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [1]
     },
     {
         "id": 1607036615591079936,
@@ -5562,7 +5457,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607034968982835203,
@@ -5577,7 +5472,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [7]
     },
     {
         "id": 1607022933951799298,
@@ -5592,7 +5487,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607019456227848192,
@@ -5607,7 +5502,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [4]
     },
     {
         "id": 1607015955095498753,
@@ -5622,7 +5517,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [6]
     },
     {
         "id": 1607015656515592194,
@@ -5637,7 +5532,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [7]
     },
     {
         "id": 1607015569613819904,
@@ -5652,7 +5547,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 0
+        "cluster_id": [9]
     },
     {
         "id": 1607014482957701123,
@@ -5667,7 +5562,7 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 2
+        "cluster_id": [3]
     },
     {
         "id": 1607001797348163584,
@@ -5682,6 +5577,6 @@
         "replies": [],
         "quotes": [],
         "boosts": 60,
-        "cluster_id": 3
+        "cluster_id": [6]
     }
 ]
