@@ -27,6 +27,25 @@
 				font-size: 15px;
 			}
 		}
+		.context-flag {
+			color: white;
+			background-color: #6868d3;
+			width: fit-content;
+			font-size: 12px;
+			padding: 4px 8px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+		}
+
+		.rebuttal-flag {
+			color: white;
+			background-color: #68d396;
+			width: fit-content;
+			font-size: 12px;
+			padding: 4px 8px;
+			border-radius: 4px;
+			margin-bottom: 12px;
+		}
 
 		.post-interactions {
 			display: flex;

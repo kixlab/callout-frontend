@@ -16,6 +16,10 @@ const Dashboard = (props) => {
 
 	const [responseView, setResponseView] = useState(false);
 	const [flagsView, setFlagsView] = useState(false);
+	const [reportView, setReportView] = useState(false);
+	const [blockView, setBlockView] = useState(false);
+
+	const data = props.data;
 
 	const sentimentTypes = [
 		{ name: "압도적으로 부정적", color: "#f00" },
@@ -28,6 +32,13 @@ const Dashboard = (props) => {
 	];
 
 	const sentiment = sentimentTypes[5];
+
+	const [responses, setResponses] = useState([]);
+	// let responses = data.map((item) => {
+	// 	if (item.cluster_id[0] == currentCluster.id || item.cluster_id[1] == currentCluster.id) {
+	// 		return <Post data={item} key={item.id} />;
+	// 	}
+	// });
 
 	return (
 		<div id="dashboard-wrapper">
@@ -53,15 +64,57 @@ const Dashboard = (props) => {
 
 						<div id="cluster-info">
 							<div id="argument" className="title">
-								People all have different perspectives and the fact that one does not agree with it
-								doesn't mean that they are wrong.
+								{currentCluster.arg}
 							</div>
-							<div className="cluster-sentiment" style={{ backgroundColor: sentiment.color }}>
-								{sentiment.name}
+							<div
+								className="cluster-sentiment"
+								style={{ backgroundColor: currentCluster.sentiment.color }}>
+								{currentCluster.sentiment.name}
+							</div>
+						</div>
+						<div style={{ marginLeft: "16px" }}>이 분류의 트윗들에 대하여 일괄적으로:</div>
+						<div id="button-area" style={{ margin: "0 16px  16px" }}>
+							<div
+								id="respond-button"
+								className="button"
+								onClick={() => {
+									setResponseView(true);
+									setFlagsView(false);
+								}}>
+								답변 남기기
+								<i className="fa-solid fa-reply" style={{ marginLeft: "8px" }}></i>
+							</div>
+							<div
+								id="flag-button"
+								className="button"
+								onClick={() => {
+									setResponseView(false);
+									setFlagsView(true);
+								}}>
+								태그 달기
+								<i className="fa-solid fa-tag" style={{ marginLeft: "8px" }}></i>
+							</div>
+							<div
+								id="report-button"
+								className="button"
+								onClick={() => {
+									setReportView(true);
+								}}>
+								신고하기
+								<i className="fa-solid fa-flag" style={{ marginLeft: "8px" }}></i>
+							</div>
+							<div
+								id="block-button"
+								className="button"
+								onClick={() => {
+									setBlockView(true);
+								}}>
+								차단하기
+								<i className="fa-solid fa-ban" style={{ marginLeft: "8px" }}></i>
 							</div>
 						</div>
 
-						{responseView ? (
+						{responseView && (
 							<div id="response-modal">
 								<div
 									className="close-button button"
@@ -82,20 +135,10 @@ const Dashboard = (props) => {
 									<div id="compose-button">답글 달기</div>
 								</div>
 							</div>
-						) : (
-							<div
-								id="respond-button"
-								className="button"
-								onClick={() => {
-									setResponseView(true);
-								}}>
-								답변 남기기
-								<i className="fa-solid fa-reply" style={{ marginLeft: "8px" }}></i>
-							</div>
 						)}
 
-						{flagsView ? (
-							<div id="flag-modal">
+						{flagsView && (
+							<div id="flag-modal" className="modal">
 								<div
 									className="close-button button"
 									onClick={() => {
@@ -104,36 +147,93 @@ const Dashboard = (props) => {
 									<i className="fa-solid fa-xmark"></i>
 								</div>
 								<div id="flag">
-									<div className="flag-item">
+									<div
+										className="flag-item"
+										onClick={() => {
+											props.setContext(!props.context);
+										}}>
 										<div className="flag-text" id="context">
-											맥락 추가됨
+											맥락 추가됨 {props.context && <i className="fa-solid fa-check"></i>}
 										</div>
 										<div className="flag-explanation">
 											내 게시글을 보는 사람들에게 타래 등 추가적인 맥락을 확인하도록 알립니다.
 										</div>
 									</div>
-									<div className="flag-item">
+									<div
+										className="flag-item"
+										onClick={() => {
+											if (props.rebuttal.indexOf(currentCluster.id) === -1) {
+												props.setRebuttal((rebuttal) => [...rebuttal, currentCluster.id]);
+											} else {
+												props.setRebuttal(
+													props.rebuttal.filter((item) => {
+														return item != currentCluster.id;
+													})
+												);
+											}
+										}}>
 										<div className="flag-text" id="refuted">
-											반박된 주장
+											반박된 주장{" "}
+											{props.rebuttal.indexOf(currentCluster.id) >= 0 && (
+												<i className="fa-solid fa-check"></i>
+											)}
 										</div>
 										<div className="flag-explanation">
-											아래 답글들에 담긴 주장에 대해 내가 답변한 내용이 있음을 알립니다.
+											아래 답글들의 주장에 대해 내가 답변한 내용이 있음을 알립니다.
 										</div>
 									</div>
 								</div>
 							</div>
-						) : (
-							<div
-								id="flag-button"
-								className="button"
-								onClick={() => {
-									setFlagsView(true);
-								}}>
-								태그 달기
-								<i className="fa-solid fa-tag" style={{ marginLeft: "8px" }}></i>
+						)}
+
+						{reportView && (
+							<div id="report-modal" className="overlay-modal">
+								<div className="popup">
+									<div id="modal-text">{responses.length}개의 트윗을 신고하시겠어요?</div>
+									<div id="modal-button-wrapper">
+										<div
+											className="modal-button yes"
+											onClick={() => {
+												setReportView(false);
+											}}>
+											예
+										</div>
+										<div
+											className="modal-button no"
+											onClick={() => {
+												setReportView(false);
+											}}>
+											아니요
+										</div>
+									</div>
+								</div>
 							</div>
 						)}
-						<div id="replies-wrapper"></div>
+
+						{blockView && (
+							<div id="block-modal" className="overlay-modal">
+								<div className="popup">
+									<div id="modal-text">{responses.length}개의 계정을 차단하시겠어요?</div>
+									<div id="modal-button-wrapper">
+										<div
+											className="modal-button yes"
+											onClick={() => {
+												setBlockView(false);
+											}}>
+											예
+										</div>
+										<div
+											className="modal-button no"
+											onClick={() => {
+												setBlockView(false);
+											}}>
+											아니요
+										</div>
+									</div>
+								</div>
+							</div>
+						)}
+						<div id="replies-wrapper">{responses}</div>
 					</div>
 				) : (
 					<div id="wrapper">
@@ -205,7 +305,7 @@ const Dashboard = (props) => {
 														setProfile(e.target.value);
 													}
 												}}
-											/>{" "}
+											/>
 											단계까지
 										</div>
 									</div>
@@ -215,7 +315,7 @@ const Dashboard = (props) => {
 											모든 사용자 {interaction == 0 && <i className="fa-solid fa-check"></i>}
 										</div>
 										<div className="setting-item" onClick={() => setInteraction(1)}>
-											나를 팔로우하는 사람들{" "}
+											나를 팔로우하는 사람들
 											{interaction == 1 && <i className="fa-solid fa-check"></i>}
 										</div>
 										<div className="setting-item">
@@ -240,45 +340,114 @@ const Dashboard = (props) => {
 										onClick={() => {
 											setSettingVisible(false);
 										}}>
-										Confirm
+										변경 내용 저장
 									</div>
 								</div>
 							)}
 						</div>
+						<div id="cluster-list">
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 8,
+									arg: "서울 사람 입장에서는 동의되는 의견",
+									sentiment: sentimentTypes[6],
+								}}
+							/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 7,
+									arg: "서울 상가의 획일화 및 노잼화",
+									sentiment: sentimentTypes[5],
+								}}
+							/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 6,
+									arg: "돈이 없으면 서울의 인프라를 활용할 수 없음",
+									sentiment: sentimentTypes[5],
+								}}
+							/>
 
-						<OpinionCluster
-							setCurrentCluster={setCurrentCluster}
-							setClusterView={setClusterView}
-							data={{
-								arg: "People all have different perspectives and the fact that one does not agree with it doesn't mean that they are wrong.",
-								sentiment: sentimentTypes[5],
-							}}
-						/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 4,
+									arg: "서울에서 즐길 수 있는 컨텐츠에 대한 추천",
+									sentiment: sentimentTypes[3],
+								}}
+							/>
 
-						<OpinionCluster
-							setCurrentCluster={setCurrentCluster}
-							setClusterView={setClusterView}
-							data={{
-								arg: "The OP did not anticipate this level of interest, and therefore criticism is not very meaningful",
-								sentiment: sentimentTypes[3],
-							}}
-						/>
-						<OpinionCluster
-							setCurrentCluster={setCurrentCluster}
-							setClusterView={setClusterView}
-							data={{
-								arg: "OP Did not consider other people’s situations and problems",
-								sentiment: sentimentTypes[2],
-							}}
-						/>
-						<OpinionCluster
-							setCurrentCluster={setCurrentCluster}
-							setClusterView={setClusterView}
-							data={{
-								arg: "This is insensitive towards individuals who did not have the same prilvilege that the OP had when growing up",
-								sentiment: sentimentTypes[2],
-							}}
-						/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 5,
+									arg: "서울이 아니라 그 어느 곳이어도 비슷",
+									sentiment: sentimentTypes[2],
+								}}
+							/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 2,
+									arg: "서울은 컨텐츠가 많고 놀기 좋은 곳",
+									sentiment: sentimentTypes[2],
+								}}
+							/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 3,
+									arg: "지방 유흥 인프라와 서울의 비교",
+									sentiment: sentimentTypes[1],
+								}}
+							/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 1,
+									arg: "서울에 컨텐츠가 없다는 주장은 배부른 고민",
+									sentiment: sentimentTypes[0],
+								}}
+							/>
+							<OpinionCluster
+								setCurrentCluster={setCurrentCluster}
+								setResponses={setResponses}
+								data={data}
+								setClusterView={setClusterView}
+								postData={{
+									id: 9,
+									arg: "기타 의견",
+									sentiment: sentimentTypes[3],
+								}}
+							/>
+						</div>
 					</div>
 				)}
 			</div>

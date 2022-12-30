@@ -1,3 +1,4 @@
+import Post from "../Post/Post";
 const OpinionCluster = (props) => {
 	const sentimentTypes = [
 		{ name: "Overwhelmingly Opposing", color: "#f00" },
@@ -9,12 +10,12 @@ const OpinionCluster = (props) => {
 		{ name: "Overwhemlingly Supportive", color: "#0f0" },
 	];
 
-	const sentiment = props.data.sentiment;
+	const sentiment = props.postData.sentiment;
 
 	return (
 		<div className="opinion-cluster">
 			<div className="cluster-content">
-				<div className="cluster-argument">{props.data.arg}</div>
+				<div className="cluster-argument">{props.postData.arg}</div>
 				<div className="cluster-sentiment" style={{ backgroundColor: sentiment.color }}>
 					{sentiment.name}
 				</div>
@@ -22,7 +23,17 @@ const OpinionCluster = (props) => {
 			<div
 				className="button viewmore-button"
 				onClick={() => {
-					props.setCurrentCluster(props.data);
+					props.setCurrentCluster(props.postData);
+					props.setResponses(
+						props.data.map((item) => {
+							if (
+								item.cluster_id[0] == props.postData.id ||
+								item.cluster_id[1] == props.postData.id
+							) {
+								return <Post data={item} key={item.id} />;
+							}
+						})
+					);
 					props.setClusterView(true);
 				}}>
 				<i className="fa-solid fa-chevron-right"></i>

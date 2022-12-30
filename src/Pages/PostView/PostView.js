@@ -13,17 +13,18 @@ const PostView = (props) => {
 	const [quotesView, setQuotesView] = useState(false);
 
 	const [contextFlag, setContextFlag] = useState(false);
-	const [rebuttalFlag, setRebuttalFlag] = useState(false);
+	const [rebuttalFlag, setRebuttalFlag] = useState([]);
 
 	const [postData, setPostData] = useState({
 		id: 1,
 		author_name: "내 트위터 계정",
 		author_id: "my_username",
-		content: "lorem ipsum",
-		likes: 10,
+		content:
+			"진짜!!!!!! 요즘 밖에서할거너무없지않냐? \n신사 압구정 성수 홍대 강남 어딜 가도 걍 돈 쓰는 것밖에 없어서 서울이 넘 재미없어..",
+		likes: 324,
 		replies: require("../../Data/case1_replies.json"),
-		quotes: require("../../Data/case1_qt.json"),
-		boosts: 40,
+		quotes: require("../../Data/case1_qt_pre.json"),
+		boosts: 851,
 	});
 
 	if (props.data) {
@@ -70,13 +71,11 @@ const PostView = (props) => {
 		temp.replies.push(replyObject);
 		setPostData(temp);
 
-		console.log(postData);
-
 		area.value = "";
 	};
 
 	let replies = postData.replies.map((item) => {
-		return <Post data={item}></Post>;
+		return <Post data={item} key={item.id}></Post>;
 	});
 
 	return (
@@ -101,7 +100,8 @@ const PostView = (props) => {
 						</div>
 						<div className="post-content">
 							<div className="post-message">{postData.content}</div>
-							<div className="post-date">November 16th, 2022 02:19 AM</div>
+							{contextFlag && <div className="post-flag">맥락 추가됨</div>}
+							<div className="post-date">2022년 12월 30일 02:19 AM</div>
 							<div
 								className="post-responses"
 								onClick={() => {
@@ -150,13 +150,18 @@ const PostView = (props) => {
 							답글 달기
 						</div>
 					</div>
-					<div id="replies">
-						{postData.replies.map((item) => {
-							return <Post data={item} key={item.id}></Post>;
-						})}
-					</div>
+					<div id="replies">{replies}</div>
 
-					{dashboardState && <Dashboard setState={setDashboardState} />}
+					{dashboardState && (
+						<Dashboard
+							setState={setDashboardState}
+							data={postData.quotes}
+							setContext={setContextFlag}
+							setRebuttal={setRebuttalFlag}
+							rebuttal={rebuttalFlag}
+							context={contextFlag}
+						/>
+					)}
 				</div>
 			)}
 			{quotesView && (
@@ -171,7 +176,18 @@ const PostView = (props) => {
 					</div>
 					<div id="quotes">
 						{postData.quotes.map((item) => {
-							return <QuotePost data={item} key={item.id} quoted={postData} />;
+							let flag =
+								rebuttalFlag.indexOf(item.cluster_id[0]) >= 0 ||
+								rebuttalFlag.indexOf(item.cluster_id[1]) >= 0;
+							return (
+								<QuotePost
+									data={item}
+									key={item.id}
+									quoted={postData}
+									context={contextFlag}
+									rebuttal={flag}
+								/>
+							);
 						})}
 					</div>
 				</div>
